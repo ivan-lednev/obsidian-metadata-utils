@@ -1,0 +1,25 @@
+{
+  "name": "obsidian-metadata-utils",
+  "version": "1.0.0",
+  "description": "A collection of utility functions for working with Obsidian's metadata cache objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-lednev/obsidian-metadata-utils.git"
+  },
+  "author": "Ivan Lednev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivan-lednev/obsidian-metadata-utils/issues"
+  },
+  "homepage": "https://github.com/ivan-lednev/obsidian-metadata-utils#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "obsidian": "^1.4.0"
+  }
+}
