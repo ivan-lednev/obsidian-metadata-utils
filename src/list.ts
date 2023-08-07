@@ -57,7 +57,7 @@ export function getListBreadcrumbs(position: Pos, listItems: ListItemCache[]) {
   return listBreadcrumbs;
 }
 
-function isTopLevelListItem(listItem: ListItemCache) {
+export function isTopLevelListItem(listItem: ListItemCache) {
   return listItem.parent < 0;
 }
 

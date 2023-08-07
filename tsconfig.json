@@ -9,7 +9,7 @@
 		"noImplicitAny": true,
 		"moduleResolution": "node",
 		"importHelpers": true,
-		"isolatedModules": true,
+		"isolatedModules": false,
 		"strictNullChecks": true,
 		"lib": [
 			"DOM",
@@ -18,7 +18,6 @@
 			"ES7"
 		],
 		"jsx": "preserve",
-		"jsxImportSource": "solid-js",
 		"allowSyntheticDefaultImports": true
 	},
 	"include": [
