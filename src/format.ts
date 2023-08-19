@@ -1,4 +1,4 @@
-import { ListItemCache } from "obsidian";
+import type { ListItemCache } from "obsidian";
 import { getTextFromLineStartToPositionEnd } from "./position";
 
 export const formatListWithDescendants = (

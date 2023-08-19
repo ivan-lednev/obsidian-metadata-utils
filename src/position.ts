@@ -1,4 +1,4 @@
-import { Pos } from "obsidian";
+import type { Pos } from "obsidian";
 
 export const getTextAtPosition = (textInput: string, pos: Pos) =>
   textInput.substring(pos.start.offset, pos.end.offset);

@@ -1,4 +1,4 @@
-import { ListItemCache, Pos } from "obsidian";
+import type { ListItemCache, Pos } from "obsidian";
 import { doesPositionIncludeAnother } from "./position";
 
 export function getListItemWithDescendants(
